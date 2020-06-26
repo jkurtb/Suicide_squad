@@ -1,2 +1,2 @@
-# Suicide_rate
-Project Week_Internal Files
+# Pursuit of happiness group project
+Project Week

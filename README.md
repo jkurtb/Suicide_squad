@@ -1,5 +1,5 @@
-# Pursuit of happiness group project
-Project Week
+# Pursuit of Happiness Group Project
+Does money buy you happiness? 
 
 <div align="center">
   

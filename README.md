@@ -7,6 +7,8 @@ Does money buy you happiness?
 
 </div>
 
+# Introduction
+
 The United Nations through its General Assembly adopted a resolution saying  “the pursuit of happiness is a fundamental human goal” and embodies the spirit of the globally agreed targets known as the Millennium Development Goals (MDGs). 
 
 It might seem an odd time to work on a project about which countries are the happiest. After all, how can someone be really happy during a global pandemic? 
@@ -14,8 +16,8 @@ It might seem an odd time to work on a project about which countries are the hap
 While some would argue that “Rich countries are definitely happier than poor countries,” this project will look into other variables other than a country's economic health.
 
 
-# Introduction
-### Why is looking at happiness important?
+# Asks: 
+###     Why is looking at happiness important?
 
 -  
 

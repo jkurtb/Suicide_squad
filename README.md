@@ -3,9 +3,16 @@ Project Week
 
 <div align="center">
   
-![World Happiness and money](https://user-images.githubusercontent.com/65078870/86050859-756db580-ba22-11ea-9e08-4f8117689a82.gif)
+![World Intro](https://user-images.githubusercontent.com/65078870/86182388-de762b80-bafd-11ea-91fc-d45ea06165aa.gif)
 
 </div>
+
+The United Nations through its General Assembly adopted a resolution saying  “the pursuit of happiness is a fundamental human goal” and embodies the spirit of the globally agreed targets known as the Millennium Development Goals (MDGs). 
+
+It might seem an odd time to work on a project about which countries are the happiest. After all, how can someone be really happy during a global pandemic? 
+
+While some would argue that “Rich countries are definitely happier than poor countries,” this project will look into other variables other than a country's economic health.
+
 
 # Introduction
 ### Why is looking at happiness important?

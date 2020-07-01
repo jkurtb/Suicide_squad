@@ -31,29 +31,43 @@ The World Happiness Report entail the "Happiness Index (Ladder Score)", "Log GDP
 On the other hand, the group had indentified and sourced other factors that could also impact happiness such as "Unemployment", "Brain Drain", "Security Index", "Fragile Index", "Poverty", "Corruption", "Physician per Population", "Substance Abuse", "Depression & Anxiety", "Suicide" "Education Spending", "Tourist Arrivals", "Literacy Rate", and "Sleep". 
 
  
-    
-  Duration: 2007-2017
+
+Null hypothesis: "Economic Health is not related to happiness"
   
-  Null hypothesis: "Economic Health is not related to happiness"
   - GDP
   
   # Data Cleaning
   
+  Each of our datasets (2007-2017) require that NaN values be replaced by... 
   
   
-  # Happiness Index Across the Globe
   
-  [Your Link Here]()
+  # Overview of Happiness Levels Across the Globe
+  
+  [<img width="509" alt="Global Happines Link Object" src="https://user-images.githubusercontent.com/65078870/86192581-ee9b0480-bb17-11ea-9d86-5e2fa4b3c7b6.PNG">]()
   
   # Analysis and Visualization
+  
+  sadasda
   
   #### Economic Health and Happiness Index  
   
   <div align="center">
   
-  <img width="678" alt="EconomicHealth vs Happiness" src="https://user-images.githubusercontent.com/65078870/86067217-5aab3900-ba42-11ea-9a8c-22a98d934017.PNG">
+  <img width="681" alt="EconomicHealth vs Happiness correlation" src="https://user-images.githubusercontent.com/65078870/86192663-168a6800-bb18-11ea-8708-82530e2e6ab8.PNG">
   
   </div>
+  
+  
+  sadasddsa
+  
+  
+  <div align="center">
+  
+  <img width="687" alt="EconomicHealth vs Happiness Outliers" src="https://user-images.githubusercontent.com/65078870/86192829-7719a500-bb18-11ea-8198-982a2368a803.PNG">
+  
+  </div>
+  
   
   
   #### Other Variables and Happiness Index 
@@ -69,7 +83,7 @@ On the other hand, the group had indentified and sourced other factors that coul
   
   <div align="center">
   
-  <img width="592" alt="Other Top Factors and Happiness" src="https://user-images.githubusercontent.com/65078870/86067747-91358380-ba43-11ea-8d25-5f01e9ce39f1.PNG">
+  <img width="687" alt="EconomicHealth vs Happiness Outliers" src="https://user-images.githubusercontent.com/65078870/86192733-3faaf880-bb18-11ea-988b-32d28f248158.PNG">
   
   </div>
   

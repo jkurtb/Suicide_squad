@@ -1,9 +1,7 @@
-## The Pursuit of Happiness
+## The Pursuit of Happiness, a group project.
 Think money can buy you happiness? Think again. 
 
-Applying Data Analytics and Visualization Techniques to highlight other factors that impact the world's happiness,
-
-A group project. 
+Applying Data Analytics and Visualization Techniques to highlight other factors that impact the world's happiness.
 
 
 <div align="center">

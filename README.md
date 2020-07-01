@@ -1,7 +1,7 @@
-## The Pursuit of Happiness, a group project.
+## The Pursuit of Happiness, a Group Project.
 Think money can buy you happiness? Think again. 
 
-Applying Data Analytics and Visualization Techniques to highlight other factors that impact the world's happiness.
+Applying Data Analytics and Visualization Techniques to highlight other factors that impact the world happiness.
 
 
 <div align="center">
@@ -14,7 +14,9 @@ Applying Data Analytics and Visualization Techniques to highlight other factors 
 
 The United Nations (UN) General Assembly adopted a resolution in 2011 that said “the pursuit of happiness is a fundamental human goal” and embodies the spirit of the globally agreed targets known as the Millennium Development Goals (MDGs). 
 
-It might seem an odd time to start a project about world happiness and present which countries are the happiest. After all, how can someone be really happy during a global pandemic? But we've all thought that we'd be happier with more cash in our pocket at some point or another. And it's only natural to feel unhappy and stressed when money's tight. This is precisely why it's important and the right moment to explore available data, analyze trends over time, and correlate factors the impact happiness across the world. 
+It might seem an odd time to start a project about world happiness. After all, how can someone be really happy during a global pandemic? 
+
+But we've all thought that we'd be happier with more cash in our pocket at some point or another; and it's only natural to feel unhappy and stressed when money's tight. This is precisely why now is the right moment to explore readily available data, to be able to analyze trends over time and correlate factors that impact happiness across the world. 
 
 While some would argue that “Rich countries are definitely happier than poor countries,” this project will look into other variables other than a country's economic health.
 
@@ -28,35 +30,35 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 +  How do outlier countires perform with other factors?
 +  How does Canada compare with outlier countries? 
 +  How does Canada compare to US?
++  Is it changing over time? 
 
 ### Data Background
 
-Our primary dataset is the Annual World Happiness Report published by the UN's Sustainable Development Solutions Network. Other chosen datasets were obtained from GHDx (Global Health Data Exchange) website of the University of Washington's Institute for Health Metrics and Evaluation.  
+Our primary dataset was derived from the Annual World Happiness Reports published by the UN's Sustainable Development Solutions Network. It is then merged with other data obtained from the GHDx (Global Health Data Exchange) - University of Washington's Institute for Health Metrics and Evaluation, The World Bank, ... and
 
-![image](https://user-images.githubusercontent.com/65078870/86235949-3f861980-bb67-11ea-8578-af025b3ddefc.png) ![image](https://user-images.githubusercontent.com/65078870/86237065-18c8e280-bb69-11ea-9fd9-86424065f100.png)
-
-
-The World Happiness Report entail the "Happiness Index (Ladder Score)", "Log GDP", "Social Support", "Healthy Life Expectancy", "Freedom", "Perception of Corruption", and "Generosity" variables. It is evident that the higher the value of each of the six related factors means the level of happiness is higher.
-
-On the other hand, the group had indentified and sourced other factors that could also impact happiness such as "Unemployment", "Brain Drain", "Security Index", "Fragile Index", "Poverty", "Corruption", "Physician per Population", "Substance Abuse", "Depression & Anxiety", "Suicide" "Education Spending", "Tourist Arrivals", "Literacy Rate", and "Sleep". 
-
- 
-
-Null hypothesis: "Economic Health is not related to happiness"
+<div align="center">
   
-  - GDP
+<img width="381" alt="Datasets Table" src="https://user-images.githubusercontent.com/65078870/86244700-597b2880-bb76-11ea-810c-34496475fa95.PNG">
+
+</div>
+
+### Hypothesis
+
+"Economic Health is not related to happiness"
   
-  # Data Cleaning
+
+  
+### Data Cleaning
   
   Each of our datasets (2007-2017) require that NaN values be replaced by... 
   
   
   
-  # Overview of Happiness Levels Across the Globe
+### Overview of Happiness Index Across the Globe
   
   [<img width="509" alt="Global Happines Link Object" src="https://user-images.githubusercontent.com/65078870/86192581-ee9b0480-bb17-11ea-9d86-5e2fa4b3c7b6.PNG">]()
   
-  # Analysis and Visualization
+## Analysis and Visualizations
   
   sadasda
   

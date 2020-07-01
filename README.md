@@ -1,4 +1,4 @@
-# Pursuit of Happiness Group Project
+# Group Project - The Pursuit of Happiness
 Does money buy you happiness? 
 
 <div align="center">
@@ -15,36 +15,37 @@ It might seem an odd time to work on a project about which countries are the hap
 
 While some would argue that “Rich countries are definitely happier than poor countries,” this project will look into other variables other than a country's economic health.
 
-
 # Asks: 
-###     Why is looking at happiness important?
-
--  
-
-
-###     Does economic health impact the level of happiness?    
-###     What else makes people happy?
-###     How does Canada compare? 
+###     - Why is looking at happiness important?
+###     - Does economic health impact the level of happiness?    
+###     - What else makes people happy?
+###     - How does Canada and US compare? 
 
 
 # Data Background
-  Sources:
-  
-    - World Happiness Report 
-    - World Bank Data
+
+Our primary dataset is the Annual World Happiness Report published by the United Nations' Sustainable Development Solutions Network, while the other chosen datasets were obtained from GHDx (Global Health Data Exchange) website of the University of Washington's Institute for Health Metrics and Evaluation.  
+
+The World Happiness Report entail the "Happiness Index (Ladder Score)", "Log GDP", "Social Support", "Healthy Life Expectancy", "Freedom", "Perception of Corruption", and "Generosity" variables. It is evident that the higher the value of each of the six related factors means the level of happiness is higher.
+
+On the other hand, the group had indentified and sourced other factors that could also impact happiness such as "Unemployment", "Brain Drain", "Security Index", "Fragile Index", "Poverty", "Corruption", "Physician per Population", "Substance Abuse", "Depression & Anxiety", "Suicide" "Education Spending", "Tourist Arrivals", "Literacy Rate", and "Sleep". 
+
+ 
     
   Duration: 2007-2017
   
   Null hypothesis: "Economic Health is not related to happiness"
-
-  Economic variables: 
-    
-    - GDP
-    - Unemployment
+  - GDP
   
   # Data Cleaning
   
-  # Correlation and Visualization
+  
+  
+  # Happiness Index Across the Globe
+  
+  [Your Link Here]()
+  
+  # Analysis and Visualization
   
   #### Economic Health and Happiness Index  
   

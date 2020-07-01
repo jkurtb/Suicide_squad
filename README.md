@@ -55,9 +55,13 @@ Our primary dataset was derived from the Annual World Happiness Reports publishe
   
   
 ### Overview of Happiness Index Across the Globe
+
+<div align="center">
   
   [<img width="509" alt="Global Happines Link Object" src="https://user-images.githubusercontent.com/65078870/86192581-ee9b0480-bb17-11ea-9d86-5e2fa4b3c7b6.PNG">]()
   
+</div>
+
 ## Analysis and Visualizations
   
   sadasda

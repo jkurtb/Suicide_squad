@@ -1,5 +1,10 @@
-# Group Project - The Pursuit of Happiness
-Does money buy you happiness? 
+## The Pursuit of Happiness
+Think money can buy you happiness? Think again. 
+
+Applying Data Analytics and Visualization Techniques to highlight other factors that impact the world's happiness,
+
+A group project. 
+
 
 <div align="center">
   
@@ -7,24 +12,31 @@ Does money buy you happiness?
 
 </div>
 
-# Introduction
+### Introduction
 
-The United Nations through its General Assembly adopted a resolution saying  “the pursuit of happiness is a fundamental human goal” and embodies the spirit of the globally agreed targets known as the Millennium Development Goals (MDGs). 
+The United Nations (UN) General Assembly adopted a resolution in 2011 that said “the pursuit of happiness is a fundamental human goal” and embodies the spirit of the globally agreed targets known as the Millennium Development Goals (MDGs). 
 
-It might seem an odd time to work on a project about which countries are the happiest. After all, how can someone be really happy during a global pandemic? 
+It might seem an odd time to start a project about world happiness and present which countries are the happiest. After all, how can someone be really happy during a global pandemic? But we've all thought that we'd be happier with more cash in our pocket at some point or another. And it's only natural to feel unhappy and stressed when money's tight. This is precisely why it's important and the right moment to explore available data, analyze trends over time, and correlate factors the impact happiness across the world. 
 
 While some would argue that “Rich countries are definitely happier than poor countries,” this project will look into other variables other than a country's economic health.
 
-# Asks: 
-###     - Why is looking at happiness important?
-###     - Does economic health impact the level of happiness?    
-###     - What else makes people happy?
-###     - How does Canada and US compare? 
+### Mission
 
+Utilize Python, Pandas, Numpy and Data Visualization tools to answer the following questions: 
 
-# Data Background
++  Does economic health correlate with happiness? 
++  What other factors impact happiness? 
++  How do outlier countries perform within the UN's happiness index variables?
++  How do outlier countires perform with other factors?
++  How does Canada compare with outlier countries? 
++  How does Canada compare to US?
 
-Our primary dataset is the Annual World Happiness Report published by the United Nations' Sustainable Development Solutions Network, while the other chosen datasets were obtained from GHDx (Global Health Data Exchange) website of the University of Washington's Institute for Health Metrics and Evaluation.  
+### Data Background
+
+Our primary dataset is the Annual World Happiness Report published by the UN's Sustainable Development Solutions Network. Other chosen datasets were obtained from GHDx (Global Health Data Exchange) website of the University of Washington's Institute for Health Metrics and Evaluation.  
+
+![image](https://user-images.githubusercontent.com/65078870/86235949-3f861980-bb67-11ea-8578-af025b3ddefc.png) ![image](https://user-images.githubusercontent.com/65078870/86237065-18c8e280-bb69-11ea-9fd9-86424065f100.png)
+
 
 The World Happiness Report entail the "Happiness Index (Ladder Score)", "Log GDP", "Social Support", "Healthy Life Expectancy", "Freedom", "Perception of Corruption", and "Generosity" variables. It is evident that the higher the value of each of the six related factors means the level of happiness is higher.
 

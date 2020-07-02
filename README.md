@@ -93,6 +93,7 @@ Click the image for more interactive information:
   
    
    **_Observable Trends/Insights:_** 
+  
   GDP had a strong positive correlation with Happiness Index. On the other hand, Unemployment rate showed a negative correlation.
   
   **Costa Rica** , **Spain** , **Brazil** , **Nicaragua** have been identified as outliers. 
@@ -110,7 +111,8 @@ Click the image for more interactive information:
   
   
    **_Observable Trends/Insights:_** 
-   Among the variables not part of UN's WHR, **Brain Drain** and **Security Index** topped the negative correlations; while **Rev Tourism** and **Average Age** showed the most positive correlations to Happiness Index.
+   
+   Other factors such as **Brain Drain** and **Security Index** topped the negative correlations, while **Rev Tourism** and **Average Age** showed the most positive correlations to Happiness Index.
   
   
   ----
@@ -125,6 +127,7 @@ Click the image for more interactive information:
   
   
    **_Observable Trends/Insights:_** 
+   
    For our outliers - **Costa Rica** , **Spain** , **Brazil** , **Nicaragua**, they all demonstrated *Social Support* mattered most to them in measuring the level of happiness. 
   
   

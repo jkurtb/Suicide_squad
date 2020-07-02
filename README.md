@@ -1,7 +1,7 @@
 ## The Pursuit of Happiness, a Group Project.
 Think money can buy you happiness? Think again. 
 
-Applying Data Analytics and Visualization Techniques to highlight other factors that impact the world happiness.
+Applying Data Analytics and Visualization Techniques to highlight other factors that impact world happiness.
 
 
 <div align="center">
@@ -12,9 +12,9 @@ Applying Data Analytics and Visualization Techniques to highlight other factors 
 
 ### Introduction
 
-The United Nations (UN) General Assembly adopted a resolution in 2011 that said “the pursuit of happiness is a fundamental human goal” and embodies the spirit of the globally agreed targets known as the Millennium Development Goals (MDGs). 
+The United Nations (UN) General Assembly passed a resolution in 2011 that said “the pursuit of happiness is a fundamental human goal”. It called on governments to "give more importance to happiness and well-being in determining how to achieve and measure social and economic development." 
 
-It might seem an odd time to start a project about world happiness. After all, how can someone be really happy during a global pandemic? 
+Now it might seem an odd time to start a project about world happiness. After all, how can someone be really happy during a global pandemic? 
 
 But we've all thought that we'd be happier with more cash in our pocket at some point or another; and it's only natural to feel unhappy and stressed when money's tight. This is precisely why now is the right moment to explore readily available data, to be able to analyze trends over time and correlate factors that impact happiness across the world. 
 
@@ -24,6 +24,7 @@ While some would argue that “Rich countries are definitely happier than poor c
 
 Utilize Python, Pandas, Numpy and Data Visualization tools to answer the following questions: 
 
++  How does the happiness index look across the globe?
 +  Does economic health correlate with happiness? 
 +  What other factors impact happiness? 
 +  How do outlier countries perform within the UN's happiness index variables?
@@ -34,7 +35,7 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 
 ### Data Background
 
-Our primary dataset was derived from the Annual World Happiness Reports published by the UN's Sustainable Development Solutions Network. It is then merged with other data obtained from the GHDx (Global Health Data Exchange) - University of Washington's Institute for Health Metrics and Evaluation, The World Bank, ... and
+Our primary dataset is derived from annual World Happiness Reports (WHR) published by the UN's Sustainable Development Solutions Network. It is then merged with other data obtained from the GHDx (Global Health Data Exchange) - University of Washington's Institute for Health Metrics and Evaluation, The World Bank, ... and
 
 <div align="center">
   
@@ -44,17 +45,24 @@ Our primary dataset was derived from the Annual World Happiness Reports publishe
 
 ### Hypothesis
 
-"Economic Health is not related to happiness"
+"Economic Health in terms of GDP and Unemployment are not correlated to Happiness"
   
-
+"Other factors (variables exclusive of UN's WHR) do not impact Happiness"
   
 ### Data Cleaning
   
-  Each of our datasets (2007-2017) require that NaN values be replaced by... 
+Our datasets were downloaded in the form of csv files. The cleaning process starts with each sources of data, dropping irrelevant columns, renaming column headers, and replacing Nan values with the average value between prior and succeeding year data. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. There's also a separate table prepared, containing normalized values during analysis.  
+
+### Data Analysis
+
+An initial data analysis was conducted during the "pre-work" phase in order to reframe specific questions this project intends to pursue. When the group had identified certain factors and outlier countries of interests to focus on, the main analysis proceeded with correlation and regression of variables among those highlighted countries. 
+
+## Data Visualization 
   
-  
-  
-### Overview of Happiness Index Across the Globe
+### Happiness Index Across the Globe
+
+Click the image for more interactive information:
+
 
 <div align="center">
   
@@ -62,11 +70,13 @@ Our primary dataset was derived from the Annual World Happiness Reports publishe
   
 </div>
 
-## Analysis and Visualizations
+
+## In Focus: Correlation and Regression
   
-  sadasda
   
-  #### Economic Health and Happiness Index  
+  ----
+  
+  ### Economic Health Factors versus Happiness Index  
   
   <div align="center">
   
@@ -74,19 +84,23 @@ Our primary dataset was derived from the Annual World Happiness Reports publishe
   
   </div>
   
-  
-  sadasddsa
-  
-  
+ 
   <div align="center">
   
-  <img width="687" alt="EconomicHealth vs Happiness Outliers" src="https://user-images.githubusercontent.com/65078870/86192829-7719a500-bb18-11ea-8198-982a2368a803.PNG">
+  <img width="687" alt="EconomicHealth vs Happiness Outliers" src="https://user-images.githubusercontent.com/65078870/86192733-3faaf880-bb18-11ea-988b-32d28f248158.PNG">
   
   </div>
   
+   
+   **_Observable Trends/Insights:_** 
+  GDP had a strong positive correlation with Happiness Index. On the other hand, Unemployment rate showed a negative correlation.
   
+  **Costa Rica** , **Spain** , **Brazil** , **Nicaragua** have been identified as outliers. 
+   
   
-  #### Other Variables and Happiness Index 
+  ----
+  
+  ### What makes people happy and unhappy?
   
   <div align="center">
   
@@ -95,15 +109,54 @@ Our primary dataset was derived from the Annual World Happiness Reports publishe
   </div>
   
   
-  #### Top Factors Correlated with Happiness / Unhappiness
+   **_Observable Trends/Insights:_** 
+   Among the variables not part of UN's WHR, **Brain Drain** and **Security Index** topped the negative correlations; while **Rev Tourism** and **Average Age** showed the most positive correlations to Happiness Index.
+  
+  
+  ----
+  
+  ### How our outliers perform within the UN's Happiness Index variables?
   
   <div align="center">
   
-  <img width="687" alt="EconomicHealth vs Happiness Outliers" src="https://user-images.githubusercontent.com/65078870/86192733-3faaf880-bb18-11ea-988b-32d28f248158.PNG">
+  <img width="555" alt="Outliers-Perform Happiness Index Factors" src="https://user-images.githubusercontent.com/65078870/86343524-13ca6880-bc27-11ea-9291-5f273a47be08.PNG">
   
   </div>
   
-  #### Happiness Over Time (Outliers and Canada)
+  
+   **_Observable Trends/Insights:_** 
+   For our outliers - **Costa Rica** , **Spain** , **Brazil** , **Nicaragua**, they all demonstrated *Social Support* mattered most to them in measuring the level of happiness. 
+  
+  
+  ----
+  
+  ### How do our outliers perform on other factors? 
+  
+  <div align="center">
+  
+  <img width="698" alt="Outliers-TopFactors vs Happiness and Unhappiness" src="https://user-images.githubusercontent.com/65078870/86342659-ec26d080-bc25-11ea-9d46-da5fc421fef2.PNG">
+  
+  </div>
+  
+  **_Observable Trends/Insights:_** 
+  
+  
+  ----
+  
+  ### How does Canada compare to US? 
+  
+  <div align="center">
+  
+  <img width="738" alt="Canada vs USA Perform" src="https://user-images.githubusercontent.com/65078870/86348315-82122980-bc2d-11ea-9adc-da45583d9e4c.PNG">
+  
+  </div>
+  
+  **_Observable Trends/Insights:_** 
+  
+  
+  ----
+  
+  ### Happiness Over Time (Outliers and Canada)
   
   <div align="center">
   
@@ -112,6 +165,7 @@ Our primary dataset was derived from the Annual World Happiness Reports publishe
   </div>
   
   
+  ---
   
   
   

@@ -39,7 +39,7 @@ Our primary dataset is derived from annual World Happiness Reports (WHR) publish
 
 <div align="center">
   
-<img width="381" alt="Datasets Table" src="https://user-images.githubusercontent.com/65078870/86244700-597b2880-bb76-11ea-810c-34496475fa95.PNG">
+<img width="460" alt="Datasets Table" src="https://user-images.githubusercontent.com/65078870/86512748-cc80db00-bdd2-11ea-89e7-6176e20802ea.PNG">
 
 </div>
 
@@ -63,12 +63,12 @@ An initial data analysis was conducted during the "pre-work" phase in order to r
 
 ### Happiness Index Across the Globe
 
-Click the image for more interactive information:
+Click the image to be directed to an html file for more interactive visualization:
 
 
 <div align="center">
   
-  [<img width="509" alt="Global Happines Link Object" src="https://user-images.githubusercontent.com/65078870/86192581-ee9b0480-bb17-11ea-9d86-5e2fa4b3c7b6.PNG">]()
+  [<img width="509" alt="Global Happines Link Object" src="https://user-images.githubusercontent.com/65078870/86192581-ee9b0480-bb17-11ea-9d86-5e2fa4b3c7b6.PNG">](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/images/Fig_Q1.html)
   
 </div>
 

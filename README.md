@@ -63,7 +63,7 @@ An initial data analysis was conducted during the "pre-work" phase in order to r
 
 ### Happiness Index Across the Globe
 
-Click the image to be directed to an html file for more interactive visualization:
+Click below image to be directed to the html file for download and to view an interactive visualization:
 
 
 <div align="center">

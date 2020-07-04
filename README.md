@@ -192,4 +192,27 @@ Click below image to be directed to the html file for download and to view an in
   # Limitations
   
   
+  # Appendices
+  
+  ![Correlation Summary Heatmap](https://user-images.githubusercontent.com/65078870/86515081-92b8d000-bde4-11ea-8092-770fb6871b53.png)
+  
+  
+  ![Economic Health and Happiness Heatmap](https://user-images.githubusercontent.com/65078870/86515091-a3694600-bde4-11ea-9284-66d5e918e51e.png)
+  
+  
+  ![RevTourism vs Happiness](https://user-images.githubusercontent.com/65078870/86515097-b9770680-bde4-11ea-859e-7d163682817d.png)
+  
+  
+  ![Average Age vs Happiness](https://user-images.githubusercontent.com/65078870/86515109-c85db900-bde4-11ea-8343-fa370beef565.png)
+  
+  
+  ![Security Threat vs Happiness](https://user-images.githubusercontent.com/65078870/86515114-d4e21180-bde4-11ea-878d-bc6af0e1f46c.png)
+  
+  
+  ![brain drain vs Happiness](https://user-images.githubusercontent.com/65078870/86515122-df041000-bde4-11ea-8f31-9cb48989670e.png)
+  
+  
+  
+  
+  
   
